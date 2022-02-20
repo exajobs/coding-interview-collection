@@ -31,6 +31,8 @@
 
 This is my multi-month study plan for becoming a software engineer for a large company. 
 
+![interview](https://github.com/exajobs/coding-interview-collection/blob/main/img/fangvaasm.jpg)
+
 **Required:** 
 * A little experience with coding (variables, loops, methods/functions, etc)
 * Patience
