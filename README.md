@@ -1,1 +1,1 @@
-# coding-interview-collection
+# Coding Interview Collection
