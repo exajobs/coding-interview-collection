@@ -1,0 +1,8 @@
+##### Question 4:
+
+Implement a function that takes a string and returns the first character that does not appear twice or more
+
+Example:
+
+ "abacc"   --> 'b' ('a' appears twice, and so does 'c')
+ "xxyzvx"  --> 'y' ('y' and 'z' are non-repeating characters, and 'y' appears first)
