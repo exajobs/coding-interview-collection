@@ -1,0 +1,923 @@
+PS D:\devel\GIT\DailyCodingChallenge> pipenv run python .\tests.py
+Loading .env environment variables...
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\archive_test_reports.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 0 items                                                                                                                                                                            
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 0.01s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_001.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 2 items
+
+codechallenge_001.py::test_BruteForceCode Elapsed time: 0.0 mili-secs
+PASSED
+codechallenge_001.py::test_BonusCode Elapsed time: 0.0 mili-secs
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 2 passed in 0.04s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_002.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_002.py::test_code [2, 3, 6]
+[120, 60, 40, 30, 24]
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_003.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 0 items                                                                                                                                                                            
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 0.01s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_004.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_004.py::test_code Elasped time running firstFirstMissing() is 0.0009608268737792969
+Elasped time running firstMissingValA() is 0.0
+Elasped time running firstMissingValB() is 0.0
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_005.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 2 items                                                                                                                                                                            
+
+codechallenge_005.py::test_addDigitsInLinkedLists PASSED
+codechallenge_005.py::test_addLinkedList PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 2 passed in 0.03s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_006.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_006.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_007.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collecting ... [0, 8, 3]
+[9, 3, 2]
+[1, 2, 0]
+[4, 5, 0]
+[6, 3, 1]
+colors:  [0, 1, 0, 1, 0] total cost:  15
+colors:  [0, 1, 0, 1, 2] total cost:  10
+colors:  [0, 1, 0, 2, 0] total cost:  10
+colors:  [0, 1, 0, 2, 1] total cost:  7
+colors:  [0, 1, 2, 0, 1] total cost:  10
+colors:  [0, 1, 2, 0, 2] total cost:  8
+colors:  [0, 1, 2, 1, 0] total cost:  14
+colors:  [0, 1, 2, 1, 2] total cost:  9
+colors:  [0, 2, 0, 1, 0] total cost:  14
+colors:  [0, 2, 0, 1, 2] total cost:  9
+colors:  [0, 2, 0, 2, 0] total cost:  9
+colors:  [0, 2, 0, 2, 1] total cost:  6
+colors:  [0, 2, 1, 0, 1] total cost:  11
+colors:  [0, 2, 1, 0, 2] total cost:  9
+colors:  [0, 2, 1, 2, 0] total cost:  10
+colors:  [0, 2, 1, 2, 1] total cost:  7
+colors:  [1, 0, 1, 0, 1] total cost:  26
+colors:  [1, 0, 1, 0, 2] total cost:  24
+colors:  [1, 0, 1, 2, 0] total cost:  25
+colors:  [1, 0, 1, 2, 1] total cost:  22
+colors:  [1, 0, 2, 0, 1] total cost:  24
+colors:  [1, 0, 2, 0, 2] total cost:  22
+colors:  [1, 0, 2, 1, 0] total cost:  28
+colors:  [1, 0, 2, 1, 2] total cost:  23
+colors:  [1, 2, 0, 1, 0] total cost:  22
+colors:  [1, 2, 0, 1, 2] total cost:  17
+colors:  [1, 2, 0, 2, 0] total cost:  17
+colors:  [1, 2, 0, 2, 1] total cost:  14
+colors:  [1, 2, 1, 0, 1] total cost:  19
+colors:  [1, 2, 1, 0, 2] total cost:  17
+colors:  [1, 2, 1, 2, 0] total cost:  18
+colors:  [1, 2, 1, 2, 1] total cost:  15
+colors:  [2, 0, 1, 0, 1] total cost:  21
+colors:  [2, 0, 1, 0, 2] total cost:  19
+colors:  [2, 0, 1, 2, 0] total cost:  20
+colors:  [2, 0, 1, 2, 1] total cost:  17
+colors:  [2, 0, 2, 0, 1] total cost:  19
+colors:  [2, 0, 2, 0, 2] total cost:  17
+colors:  [2, 0, 2, 1, 0] total cost:  23
+colors:  [2, 0, 2, 1, 2] total cost:  18
+colors:  [2, 1, 0, 1, 0] total cost:  18
+colors:  [2, 1, 0, 1, 2] total cost:  13
+colors:  [2, 1, 0, 2, 0] total cost:  13
+colors:  [2, 1, 0, 2, 1] total cost:  10
+colors:  [2, 1, 2, 0, 1] total cost:  13
+colors:  [2, 1, 2, 0, 2] total cost:  11
+colors:  [2, 1, 2, 1, 0] total cost:  17
+colors:  [2, 1, 2, 1, 2] total cost:  12
+Number of ways of painting n=5 houses 48
+Min cost of 6 is achieved by coloring houses this way 0_2_0_2_1
+Where,
+        color code: 0 color: BambooGreen
+        color code: 2 color: ArizonaBrown
+        color code: 0 color: BambooGreen
+        color code: 2 color: ArizonaBrown
+        color code: 1 color: LondonFog
+collected 0 items                                                                                                                                                                            
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 0.02s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_008.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_008.py::test_code Elapsed time: 0.0
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.03s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_009.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_009.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_010.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_010.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_011.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_011.py::test_code  -> (3,0) -> (2,0) -> (2,1) -> (2,2) -> (1,2) -> (0,2) -> (0,1) -> (0,0)
+ -> (3,0) -> (3,1) -> (3,2) -> (3,3)
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.03s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_012.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_012.py::TestJustifier::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_013.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_013.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_015.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 0 items
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 0.01s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_016.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_016.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_017.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_017.py::TestArbitrage::test_code Step1: Trade 1000000 USD for 783992.0000000001 British Pound
+Step2: Trade 783992.0000000001 British Pound for 85893022.81164001 Japanese Yen
+Step3: Trade 85893022.81164001 Japanese Yen back to 1007155.9183265896 USD
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_018.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_018.py::test_code 2
+1.5
+2
+3.5
+2
+2.0
+2
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_019.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_019.py::test_palindrome PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s =====================================================================================
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_020.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_020.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_021.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_021.py::test_code PASSED
+
+===================================================================================== warnings summary ===================================================================================== 
+codechallenge_021.py:36
+  D:\devel\GIT\DailyCodingChallenge\codechallenge_021.py:36: DeprecationWarning: invalid escape sequence \
+    '''
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+=============================================================================== 1 passed, 1 warning in 0.02s =============================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_022.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_022.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_023.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_023.py::test_code (bottom_half)-- row,col:(0, 98)
+(bottom_half)-- row,col:(1, 96)
+(bottom_half)-- row,col:(2, 94)
+(bottom_half)-- row,col:(3, 92)
+(bottom_half)-- row,col:(4, 90)
+(bottom_half)-- row,col:(5, 88)
+(bottom_half)-- row,col:(6, 86)
+(bottom_half)-- row,col:(7, 84)
+(bottom_half)-- row,col:(8, 82)
+(bottom_half)-- row,col:(9, 80)
+(bottom_half)-- row,col:(10, 78)
+(bottom_half)-- row,col:(11, 76)
+(bottom_half)-- row,col:(12, 74)
+(bottom_half)-- row,col:(13, 72)
+(bottom_half)-- row,col:(14, 70)
+(bottom_half)-- row,col:(15, 68)
+(bottom_half)-- row,col:(16, 66)
+(bottom_half)-- row,col:(17, 64)
+(bottom_half)-- row,col:(18, 62)
+(bottom_half)-- row,col:(19, 60)
+(bottom_half)-- row,col:(20, 58)
+(bottom_half)-- row,col:(21, 56)
+(bottom_half)-- row,col:(22, 54)
+(bottom_half)-- row,col:(23, 52)
+(bottom_half)-- row,col:(24, 50)
+(bottom_half)-- row,col:(25, 48)
+(bottom_half)-- row,col:(26, 46)
+(bottom_half)-- row,col:(27, 44)
+(bottom_half)-- row,col:(28, 42)
+(bottom_half)-- row,col:(29, 40)
+(bottom_half)-- row,col:(30, 38)
+(bottom_half)-- row,col:(31, 36)
+(bottom_half)-- row,col:(32, 34)
+(bottom_half)-- row,col:(33, 32)
+(bottom_half)-- row,col:(34, 30)
+(bottom_half)-- row,col:(35, 28)
+(bottom_half)-- row,col:(36, 26)
+(bottom_half)-- row,col:(37, 24)
+(bottom_half)-- row,col:(38, 22)
+(bottom_half)-- row,col:(39, 20)
+(bottom_half)-- row,col:(40, 18)
+(bottom_half)-- row,col:(41, 16)
+(bottom_half)-- row,col:(42, 14)
+(bottom_half)-- row,col:(43, 12)
+(bottom_half)-- row,col:(44, 10)
+(bottom_half)-- row,col:(45, 8)
+(bottom_half)-- row,col:(46, 6)
+(bottom_half)-- row,col:(47, 4)
+(bottom_half)-- row,col:(48, 2)
+(bottom_half)-- row,col:(49, 0)
+(top_half)-- row,col:(50, 99)
+(top_half)-- row,col:(51, 97)
+(top_half)-- row,col:(52, 95)
+(top_half)-- row,col:(53, 93)
+(top_half)-- row,col:(54, 91)
+(top_half)-- row,col:(55, 89)
+(top_half)-- row,col:(56, 87)
+(top_half)-- row,col:(57, 85)
+(top_half)-- row,col:(58, 83)
+(top_half)-- row,col:(59, 81)
+(top_half)-- row,col:(60, 79)
+(top_half)-- row,col:(61, 77)
+(top_half)-- row,col:(62, 75)
+(top_half)-- row,col:(63, 73)
+(top_half)-- row,col:(64, 71)
+(top_half)-- row,col:(65, 69)
+(top_half)-- row,col:(66, 67)
+(top_half)-- row,col:(67, 65)
+(top_half)-- row,col:(68, 63)
+(top_half)-- row,col:(69, 61)
+(top_half)-- row,col:(70, 59)
+(top_half)-- row,col:(71, 57)
+(top_half)-- row,col:(72, 55)
+(top_half)-- row,col:(73, 53)
+(top_half)-- row,col:(74, 51)
+(top_half)-- row,col:(75, 49)
+(top_half)-- row,col:(76, 47)
+(top_half)-- row,col:(77, 45)
+(top_half)-- row,col:(78, 43)
+(top_half)-- row,col:(79, 41)
+(top_half)-- row,col:(80, 39)
+(top_half)-- row,col:(81, 37)
+(top_half)-- row,col:(82, 35)
+(top_half)-- row,col:(83, 33)
+(top_half)-- row,col:(84, 31)
+(top_half)-- row,col:(85, 29)
+(top_half)-- row,col:(86, 27)
+(top_half)-- row,col:(87, 25)
+(top_half)-- row,col:(88, 23)
+(top_half)-- row,col:(89, 21)
+(top_half)-- row,col:(90, 19)
+(top_half)-- row,col:(91, 17)
+(top_half)-- row,col:(92, 15)
+(top_half)-- row,col:(93, 13)
+(top_half)-- row,col:(94, 11)
+(top_half)-- row,col:(95, 9)
+(top_half)-- row,col:(96, 7)
+(top_half)-- row,col:(97, 5)
+(top_half)-- row,col:(98, 3)
+(top_half)-- row,col:(99, 1)
+Queen_positions = [(0, 98), (1, 96), (2, 94), (3, 92), (4, 90), (5, 88), (6, 86), (7, 84), (8, 82), (9, 80), (10, 78), (11, 76), (12, 74), (13, 72), (14, 70), (15, 68), (16, 66), (17, 64), 
+(18, 62), (19, 60), (20, 58), (21, 56), (22, 54), (23, 52), (24, 50), (25, 48), (26, 46), (27, 44), (28, 42), (29, 40), (30, 38), (31, 36), (32, 34), (33, 32), (34, 30), (35, 28), (36, 26), (37, 24), (38, 22), (39, 20), (40, 18), (41, 16), (42, 14), (43, 12), (44, 10), (45, 8), (46, 6), (47, 4), (48, 2), (49, 0), (50, 99), (51, 97), (52, 95), (53, 93), (54, 91), (55, 89), (56, 87), (57, 85), (58, 83), (59, 81), (60, 79), (61, 77), (62, 75), (63, 73), (64, 71), (65, 69), (66, 67), (67, 65), (68, 63), (69, 61), (70, 59), (71, 57), (72, 55), (73, 53), (74, 51), (75, 49), (76, 47), (77, 45), (78, 43), (79, 41), (80, 39), (81, 37), (82, 35), (83, 33), (84, 31), (85, 29), (86, 27), (87, 25), (88, 23), (89, 21), (90, 19), (91, 17), (92, 15), (93, 13), (94, 11), (95, 9), (96, 7), (97, 5), (98, 3), (99, 1)]
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.03s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_025.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_025.py::test_code PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_026.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 0 items                                                                                                                                                                            
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 0.01s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_027.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_027.py::test_getItin PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_028.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_028.py::test_get_subset PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_029.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_029.py::test_stack PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_030.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_030.py::test_inversion_count PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_031.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_031.py::test_random7 PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.03s =====================================================================================
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_032.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_032.py::test_longest_palindrome FAILED
+
+========================================================================================= FAILURES =========================================================================================
+_________________________________________________________________________________ test_longest_palindrome __________________________________________________________________________________ 
+
+    def test_longest_palindrome():
+        STRINGS = ["aabcdcb", "bananas", "google", "maddashcat", "rolemimimi"]
+        EXPECTED = ["bcdcb", "anana", "goog", "adda", "mimimi"]
+        PLINDS = []
+        for word in STRINGS:
+            PLINDS.append(longest_palindrome(all_palindromes(word)))
+>       assert PLINDS == EXPECTED
+E       AssertionError: assert ['bcdcb', 'an...dda', 'imimi'] == ['bcdcb', 'an...da', 'mimimi']
+E         At index 4 diff: 'imimi' != 'mimimi'
+E         Full diff:
+E         - ['bcdcb', 'anana', 'goog', 'adda', 'mimimi']
+E         ?                                     -
+E         + ['bcdcb', 'anana', 'goog', 'adda', 'imimi']
+
+codechallenge_032.py:79: AssertionError
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================= short test summary info ==================================================================================
+FAILED codechallenge_032.py::test_longest_palindrome - AssertionError: assert ['bcdcb', 'an...dda', 'imimi'] == ['bcdcb', 'an...da', 'mimimi']
+==================================================================================== 1 failed in 0.08s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_033.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_033.py::test_profit For maximum profit we buy at 201 and sell at 205 for the profit of 144.
+For maximum profit we buy at 201 and sell at 205 for the profit of 144.
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.03s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_034.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_034.py::test_highest_sum DBUG--(sub array): [34, -50, 42, 14, -5, 86]
+DBUG--(sub array): [34, -50, 42, 14, -5]
+DBUG--(sub array): [34, -50, 42, 14]
+DBUG--(sub array): [34, -50, 42]
+DBUG--(sub array): [34, -50]
+DBUG--(sub array): [-50, 42, 14, -5, 86]
+DBUG--(sub array): [-50, 42, 14, -5]
+DBUG--(sub array): [-50, 42, 14]
+DBUG--(sub array): [-50, 42]
+DBUG--(sub array): [42, 14, -5, 86]
+DBUG--(sub array): [42, 14, -5]
+DBUG--(sub array): [42, 14]
+DBUG--(sub array): [14, -5, 86]
+DBUG--(sub array): [14, -5]
+DBUG--(sub array): [-5, 86]
+DBUG--(sub array): [-5, -1, -8, -9, -19]
+DBUG--(sub array): [-5, -1, -8, -9]
+DBUG--(sub array): [-5, -1, -8]
+DBUG--(sub array): [-5, -1]
+DBUG--(sub array): [-1, -8, -9, -19]
+DBUG--(sub array): [-1, -8, -9]
+DBUG--(sub array): [-1, -8]
+DBUG--(sub array): [-8, -9, -19]
+DBUG--(sub array): [-8, -9]
+DBUG--(sub array): [-9, -19]
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_035.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collecting ... 84
+*
+collected 0 items                                                                                                                                                                            
+
+===================================================================================== warnings summary ===================================================================================== 
+codechallenge_035.py:44
+  D:\devel\GIT\DailyCodingChallenge\codechallenge_035.py:44: DeprecationWarning: invalid escape sequence \
+    '''
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 warning in 0.65s ==================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_036.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_036.py::test_dualstack_queue PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_038.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_038.py::test_clipped_strs PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_039.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_039.py::test_searchindex PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_040.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_040.py::test_matchWordInMatrix Result: 'ruth' is found in row 2
+DBUG--words_in_cols: ['jmr', 'aau', 'knt', 'eyh']
+DBUG--words_in_rows: ['jake', 'many', 'ruth']
+Result: 'ruth' is found in row 2
+Result: 'omma' is not found.
+DBUG--words_in_cols: ['jmr', 'aau', 'knt', 'eyh']
+DBUG--words_in_rows: ['jake', 'many', 'ruth']
+Result: 'aau' is found in column 1
+DBUG--words_in_cols: ['jmr', 'aau', 'knt', 'eyh']
+Result: 'aau' is found in column 1
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_041.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_041.py::test_sublisting DBUG-- R_Total:15 L_Total:55 Half:55
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.03s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_042.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 0 items                                                                                                                                                                            
+
+===================================================================================== warnings summary ===================================================================================== 
+codechallenge_042.py:65
+  D:\devel\GIT\DailyCodingChallenge\codechallenge_042.py:65: DeprecationWarning: invalid escape sequence \
+    '''
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 warning in 0.01s ==================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_044.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_044.py::test_maxprod PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.47s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_045.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_045.py::test_findNthFactor PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_100.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item
+
+codechallenge_100.py::TestFindNumber::test_FindNumber codechallenge_100.TestFindNumber.test_FindNumber: 0.000
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.04s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_101.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 0 items                                                                                                                                                                            
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 0.01s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_102.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_102.py::TestDecoder::test_decode ['aaa', 'ka', 'ak']
+['ka', 'abaa', 'ua', 'ak', 'al']
+['ua', 'abcd', 'al']
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_103.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 9 items                                                                                                                                                                            
+
+codechallenge_103.py::TestOrderLog::test_MultiLog Unit test (Singly linked list):
+        RecordID at Idx#3: O-8972067349
+        Last recordID:  O-4768337347
+Unit test (Stack):
+        Last recordID:  O-3256115938
+Unit test (Queue):
+        RecordID at Idx#500: O-2062010241
+        Last recordID:  O-1656233108
+codechallenge_103.TestOrderLog.test_MultiLog: 3.056
+PASSED
+codechallenge_103.py::TestOrderLog::test_Queue Unit test (Queue):
+        RecordID at Idx#500: O-1536538894
+        Last recordID:  O-1866180772
+codechallenge_103.TestOrderLog.test_Queue: 1.014
+PASSED
+codechallenge_103.py::TestOrderLog::test_SinglyLinkedList Unit test (Singly linked list):
+        RecordID at Idx#3: O-5432984047
+        Last recordID:  O-9781587739
+codechallenge_103.TestOrderLog.test_SinglyLinkedList: 1.044
+PASSED
+codechallenge_103.py::TestOrderLog::test_Stack Unit test (Stack):
+        Last recordID:  O-4886722600
+codechallenge_103.TestOrderLog.test_Stack: 1.005
+PASSED
+codechallenge_103.py::test_SinlglyLinkedList Unit test (Singly linked list):
+        RecordID at Idx#3: O-5206265460
+        Last recordID:  O-3420723331
+PASSED
+codechallenge_103.py::test_Queue Unit test (Queue):
+        RecordID at Idx#500: O-4583982129
+        Last recordID:  O-9118399265
+PASSED
+codechallenge_103.py::test_Stack Unit test (Stack):
+        Last recordID:  O-7087790804
+PASSED
+codechallenge_103.py::TestQueue::test_Queue Unit test (Queue):
+        RecordID at Idx#500: O-6946954185
+        Last recordID:  O-2929138428
+PASSED
+codechallenge_103.py::TestStack::test_Stack Unit test (Stack):
+        Last recordID:  O-6948670613
+PASSED
+
+===================================================================================== warnings summary ===================================================================================== 
+codechallenge_103.py:276
+  D:\devel\GIT\DailyCodingChallenge\codechallenge_103.py:276: DeprecationWarning: invalid escape sequence \d
+    '''
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+=============================================================================== 9 passed, 1 warning in 6.22s =============================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_104.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_104.py::TestLongestAbsolutePath::test_absolute_path_len TabCnt    Level   isFile  Token
+======= =====   =====   =====
+0       0       False   dir
+1       1       False           subdir1
+2       2       False                   subsubdir2
+3       3       True                            file.ext
+TabCnt  Level   isFile  Token
+======= =====   =====   =====
+0       0       False   PythonDevSrc
+1       1       False           Projects
+2       2       False                   CodingChallenges
+3       3       True                            codechallenge_104.py
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 0.01s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_105.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_105.py::TestCodeChallenge105::test_IpAddresses codechallenge_105.TestCodeChallenge105.test_IpAddresses: 1.002
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 1 passed in 1.02s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_106.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 1 item                                                                                                                                                                             
+
+codechallenge_106.py::TestAnagrams::test_anagrams {'d': 1, 'a': 1, 'n': 1, 'g': 1, 'e': 1, 'r': 1}
+{'g': 1, 'a': 1, 'r': 1, 'd': 1, 'e': 1, 'n': 1}
+{'s': 1, 'p': 1, 'a': 1, 'r': 1, 'k': 1}
+{'k': 1, 'r': 1, 'a': 1, 'p': 1, 's': 1}
+{'R': 1, 'o': 1, 'l': 1, 'a': 1, 'n': 1, 'd': 1}
+{'D': 1, 'o': 1, 'r': 1, 'n': 1, 'a': 1, 'l': 1}
+codechallenge_106.TestAnagrams.test_anagrams: 1.016
+PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ----------------------------------------------------
+==================================================================================== 1 passed in 1.04s ===================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\codechallenge_107.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collecting ... pygame 2.1.2 (SDL 2.0.18, Python 3.7.8)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+collected 0 items
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+================================================================================== no tests ran in 2.45s =================================================================================== 
+Unittest commences for D:\devel\GIT\DailyCodingChallenge\module_unittests.py
+=================================================================================== test session starts ====================================================================================
+platform win32 -- Python 3.7.8, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\markn\.virtualenvs\DailyCodingChallenge-OQHayZge\Scripts\python.EXE
+cachedir: .pytest_cache
+rootdir: D:\devel\GIT\DailyCodingChallenge
+collected 12 items                                                                                                                                                                           
+
+module_unittests.py::TestCodeChallenges::test_codChallenge005 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge001 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge002 [2, 3, 6]
+[120, 60, 40, 30, 24]
+PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge004 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge006 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge008 Random generated schedule: [(0, 81), (2, 63), (5, 97), (7, 47), (9, 29), (10, 59), (11, 104), (12, 70), (13, 18), (15, 27), (16, 101), (19, 48), (21, 99), (22, 120), (23, 81), (24, 32), (25, 92), (26, 77), (27, 70), (28, 93), (29, 69), (32, 81), (33, 56), (34, 60), (35, 81), (38, 72), (39, 108), (40, 63), (41, 140), (44, 143), (45, 75), (46, 142), (50, 119), (51, 138), (53, 73), (55, 80), (56, 131), (58, 125), (59, 140), (60, 109), (62, 117), (64, 144), (65, 111), (67, 141), (68, 89), (70, 148), (71, 161), (72, 130), (73, 77), (74, 125), (77, 168), (78, 98), (82, 165), (83, 108), (84, 139), (87, 146), (89, 126), (90, 174), (91, 171), (93, 164), (94, 144), (97, 144), (98, 109), (99, 175)]
+Number of required room(s): 63
+PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge009 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge010 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge011  -> (3,0) -> (2,0) -> (2,1) -> (2,2) -> (1,2) -> (0,2) -> (0,1) -> (0,0)
+PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge012 the  quick brown
+fox   jumps over
+the    lazy  dog
+PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge013 PASSED
+module_unittests.py::TestCodeChallenges::test_codeChallenge016 PASSED
+
+--------------------------------------------------- generated xml file: D:\devel\GIT\DailyCodingChallenge\test_reports\test_results.xml ---------------------------------------------------- 
+==================================================================================== 12 passed in 0.04s ==================================================================================== 
+Following files will be zipped:
+./test_reports\TestResults___main__.TestLongestAbsolutePath_2022-01-17_21-14-35.html
+./test_reports\TestResults___main__.TestLongestAbsolutePath_2022-01-17_21-17-26.html
+./test_reports\test_results.xml
+All files zipped successfully!
+test_reports/TestResults___main__.TestLongestAbsolutePath_2022-01-17_21-14-35.html
+        Modified:       2022-01-17 21:14:34
+        System:         0(0 = Windows, 3 = Unix)
+        ZIP version:    20
+        Compressed:     3399 bytes
+        Uncompressed:   3399 bytes
+test_reports/TestResults___main__.TestLongestAbsolutePath_2022-01-17_21-17-26.html
+        Modified:       2022-01-17 21:17:26
+        System:         0(0 = Windows, 3 = Unix)
+        ZIP version:    20
+        Compressed:     3399 bytes
+        Uncompressed:   3399 bytes
+test_reports/test_results.xml
+        Modified:       2022-01-17 21:21:30
+        System:         0(0 = Windows, 3 = Unix)
+        ZIP version:    20
+        Compressed:     1449 bytes
+        Uncompressed:   1449 bytes
