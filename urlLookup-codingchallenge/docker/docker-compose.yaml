@@ -1,0 +1,96 @@
+version: '3.7'
+
+services:
+
+  urllookup:
+    image: webapp:latest
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.webservice
+    ports:
+      - 32697:32697
+    depends_on:
+      - redis1
+      - redis2
+      - redis3
+    volumes:
+      - "./svc-conf/svc.conf:/opt/svc/svc.conf"
+    deploy:
+      replicas: 2
+      restart_policy:
+        max_attempts: 3
+        condition: on-failure
+      update_config:
+        parallelism: 3
+        delay: 10s
+    networks:
+      - redis
+      - lb
+
+  updater:
+    image: updater:latest
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile.updater
+    depends_on:
+      - redis1
+      - redis2
+      - redis3
+    volumes:
+      - "./updater-conf/updater.conf:/opt/updater/updater.conf"
+      - "../blacklist:/data/blacklist"
+    networks:
+      - redis
+
+  proxy:
+    image: nginx:alpine
+    ports:
+      - published: 80
+        target: 80
+    depends_on:
+      - urllookup
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    volumes:
+      - "./nginx-conf/nginx.conf:/etc/nginx/nginx.conf"
+    networks:
+      - lb
+
+  # redis services
+  redis1:
+    image: redis
+    entrypoint: redis-server /usr/local/etc/redis/redis.conf
+    networks:
+      redis:
+        ipv4_address: 10.5.5.91
+    volumes:
+      - "./redis-conf/redis-1-master.conf:/usr/local/etc/redis/redis.conf"
+  redis2:
+    image: redis
+    entrypoint: redis-server /usr/local/etc/redis/redis.conf
+    networks:
+      redis:
+        ipv4_address: 10.5.5.92
+    volumes:
+      - "./redis-conf/redis-1-slave.conf:/usr/local/etc/redis/redis.conf"
+  redis3:
+    image: redis
+    entrypoint: redis-server /usr/local/etc/redis/redis.conf
+    networks:
+      redis:
+        ipv4_address: 10.5.5.93
+    volumes:
+      - "./redis-conf/redis-1-slave.conf:/usr/local/etc/redis/redis.conf"
+
+networks:
+  lb:
+    ipam:
+      driver: default
+      config:
+        - subnet: "10.10.10.0/24"
+  redis:
+    ipam:
+      driver: default
+      config:
+        - subnet: "10.5.5.0/24"

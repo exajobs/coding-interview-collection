@@ -1,0 +1,20 @@
+FROM golang:1.13-alpine as builder
+
+# we want a static binary
+ENV CGO_ENABLED=0
+
+RUN apk add --update git make
+
+COPY . /go/src/github.com/brecode/urlLookup
+
+WORKDIR /go/src/github.com/brecode/urlLookup/cmd/updater
+
+RUN go build -i -v -o updater
+
+FROM scratch
+
+COPY --from=builder /go/src/github.com/brecode/urlLookup/cmd/updater/updater /updater
+
+COPY --from=builder /go/src/github.com/brecode/urlLookup/docker/updater-conf/updater.conf /opt/updater/updater.conf
+
+ENTRYPOINT ["/updater", "-c", "/opt/updater/updater.conf"]

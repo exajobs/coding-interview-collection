@@ -1,0 +1,20 @@
+FROM golang:1.13-alpine as builder
+
+# we want a static binary
+ENV CGO_ENABLED=0
+
+RUN apk add --update git make
+
+COPY . /go/src/github.com/brecode/urlLookup
+
+WORKDIR /go/src/github.com/brecode/urlLookup/cmd/svc
+
+RUN go build -i -v -o svc
+
+FROM scratch
+
+COPY --from=builder /go/src/github.com/brecode/urlLookup/cmd/svc/svc /svc
+
+COPY --from=builder /go/src/github.com/brecode/urlLookup/docker/svc-conf/svc.conf /opt/svc/svc.conf
+
+ENTRYPOINT ["/svc", "-c", "/opt/svc/svc.conf", "-p", "${LISTEN_PORT}", "-a", "${LISTEN_ADDR}"]
